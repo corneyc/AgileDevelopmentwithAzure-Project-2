@@ -14,7 +14,8 @@ I am using a pre-trained, ``sklearn`` model that has been trained to predict hou
 
 ## Instructions
  
-* Architectural Diagram (Showing how key parts of the system work)>
+* Architectural Diagram (Showing how key parts of the system work)
+
 I started off by setting up a cloud-based development structure using Azure Cloud Shell. Then I created a ``Makefile``, tests, and application scaffolding. Once you complete this step you will be able to test code locally in the Azure Cloud Shell. This is a local continuous integration step. All Python that is created should have a local continuous integration setup as well as a remote build server that runs the same code. I followed a universal, and non-controversial, software engineering best practice to make sure my code is always in a testable and deployable state. I made sure that followed the steps inorder not to easily introduce bugs and unchecked errors. Additionally,  I also learnt that people who use your Github repository will have no idea if the code works.
 
 I adapted the following diagram from the notes provided on the course. In this diagram, the Azure Cloud Shell is used to create an empty scaffold of tests, source code, Makefile, and requirements.
