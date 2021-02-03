@@ -75,7 +75,7 @@ In the Cloud Shell, change directories into the repository folder that will have
 ## Create the Makefile
 Inside your GitHub repo from the Cloud shell, your next step will be to create a file named ``Makefile`` and copy the code below into it (remember this needs to use tab formatting). Remember that a ``Makefile`` is a handy way to create shortcuts to build, test, and deploy a project.
 
-''install:``
+``install:
     pip install --upgrade pip &&\
         pip install -r requirements.txt
 
