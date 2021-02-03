@@ -51,6 +51,22 @@ The last step in the repo you have created is to clone the repo. We will be doin
 ![alt-image 1](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/screen_4.png)
 
 
+2. Create an Azure account. Follow the screensshots below and the instructions that follow on your screen until you get to the screen simlar to the next screen.
+
+![alt-image 1](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/azure_screen_6.png)
+
+
+In Azure, you will get to screen which looks like the one below. 
+
+![alt-image 1](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/azure_screen_7.png)
+
+On the icon to the right of the search bar. The icon will open a Command Line Interface (CLI) at the botton of the page. Then follow the instructions on the screen abd select ``Bash``.
+
+![alt-image 1](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/azure_screen_8.png)
+
+Eventually, you will be taken the screen as shown below
+
+![alt-image 1](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/azure_screen_9.png)
 
 Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
