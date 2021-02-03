@@ -185,15 +185,21 @@ Running ``az webapp up flaskproject-ml`` produced the following screen:
 
 ![alti-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/az_web_up.png)
 
+## * Passing tests that are displayed after running the `make all` command from the `Makefile`
+
 Running ``make all`` produced the following:
 
 ![alti-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/make_all.png)
 
-* Project cloned into Azure Cloud Shell
+## Project cloned into Azure Cloud Shell
 
-* Passing tests that are displayed after running the `make all` command from the `Makefile`
+The project repository was cloned into Azure Cloud Shell using ``git clone git@github.com:corneyc/AgileDevelopmentwithAzure-Project-2.git``
+![alti-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/proj_cloned.png)
 
-* Output of a test run
+## Output of a test run
+
+![alti-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/make_all.png)
+
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
