@@ -75,7 +75,20 @@ In the Cloud Shell, change directories into the repository folder that will have
 ## Create the Makefile
 Inside your GitHub repo from the Cloud shell, your next step will be to create a file named ``Makefile`` and copy the code below into it (remember this needs to use tab formatting). Remember that a ``Makefile`` is a handy way to create shortcuts to build, test, and deploy a project.
 
-![alt-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/makefile_screen_10.png)
+![alt-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/Cloud_screen_11.png)
+
+Follow type in ``touch Makefile`` in the Cloud Shell terminal and enter. A file called ``Makefile`` will be created and see the screen below to navigate to the editor.
+![alt-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/Cloud_screen_12.png)
+
+Next click on the two curley braces to open the editor.
+
+![alt-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/Cloud_screen_13.png)
+
+On the screen below navigate to the files and find the ``Makefile`` you created.
+
+![alt-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/Cloud_screen_14.png)
+
+Open the file and paste the code below.
 
 ```
 install:
@@ -91,6 +104,10 @@ lint:
 
 all: install lint test
 ```
+
+This is how the code will look like:
+
+![alt-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/Cloud_screen_15.png)
 
 
 Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
