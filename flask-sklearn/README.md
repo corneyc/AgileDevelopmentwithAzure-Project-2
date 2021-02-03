@@ -23,7 +23,20 @@ I adapted the following diagram from the notes provided on the course. In this d
 ![alt-image](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/azure-cloud-shell.png?raw=true)
 
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+## Instructions for running the Python project.   
+
+The following paragraphs will run you through steps on how run a Python project, GitHub repository creation, use of Azure Pipelines continuous integration and continuous delivery (CI/CD) to deploy a Python web app to Azure App Service on Linux. Finally, you create an Azure Pipelines CI/CD pipeline that automatically builds the code and deploy it to the App Service whenever there's a commit to the repository.
+
+Create a GitHub repository. Following the screenshots:
+![alt-image 1](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/screen_1.png)
+![alt-image 1](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/screen_2.png)
+![alt-image 1](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/screen_3.png)
+![alt-image 1](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/screen_4.png)
+![alt-image 1](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/screen_5.png)
+
+
+
+Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
 * Project running on Azure App Service
 
