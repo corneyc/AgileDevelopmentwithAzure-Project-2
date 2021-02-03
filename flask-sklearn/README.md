@@ -185,7 +185,9 @@ Running ``az webapp up flaskproject-ml`` produced the following screen:
 
 ![alti-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/az_web_up.png)
 
+Running ``make all`` produced the following:
 
+![alti-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/make_all.png)
 
 * Project cloned into Azure Cloud Shell
 
