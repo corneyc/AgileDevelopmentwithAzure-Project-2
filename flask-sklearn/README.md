@@ -68,7 +68,25 @@ Eventually, you will be taken the screen as shown below
 
 ![alt-image 1](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/azure_screen_9.png)
 
-In the terminal you are going to clone the repository you created as follows: ``git clone https://github.com/corneyc/this-is-my-first-repo.git``
+In the terminal you are going to clone the repository you created as follows: ``git clone https://github.com/<your-alias>/this-is-my-first-repo.git`` Replace ``<your-alias>`` with the name of the GitHub account you created to fork the repository.
+
+In the Cloud Shell, change directories into the repository folder that will have your Python app, so the az webapp up command will recognize the app as Python. For the purposes of this exercise we will clone an example repository from Microsoft azure: ``git clone https://github.com/Azure-Samples/python-docs-hello-world``. Then navigate into that folder: ``cd python-docs-hello-world``. The sample contains framework-specific code that Azure App Service recognizes when starting the app. 
+
+## Create the Makefile
+Inside your GitHub repo from the Cloud shell, your next step will be to create a file named ``Makefile`` and copy the code below into it (remember this needs to use tab formatting). Remember that a ``Makefile`` is a handy way to create shortcuts to build, test, and deploy a project.
+
+''install:``
+    pip install --upgrade pip &&\
+        pip install -r requirements.txt
+
+test:
+    python -m pytest -vv test_hello.py
+
+
+lint:
+    pylint --disable=R,C hello.py
+
+all: install lint test``
 
 
 Copy
