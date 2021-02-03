@@ -177,6 +177,16 @@ I created the Resource group and the App Service from the Azure Cloud Shell usin
 
 ![alti-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/rg.png)
 
+And the App name flaskproject-ml was also created in the App services.
+
+![alti-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/appname.png)
+
+Running ``az webapp up flaskproject-ml`` produced the following screen:
+
+![alti-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/az_web_up.png)
+
+
+
 * Project cloned into Azure Cloud Shell
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
