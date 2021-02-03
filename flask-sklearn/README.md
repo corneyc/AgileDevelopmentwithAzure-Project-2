@@ -68,6 +68,13 @@ Eventually, you will be taken the screen as shown below
 
 ![alt-image 1](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/azure_screen_9.png)
 
+In the terminal you are going to clone the repository you created as follows: ``git clone https://github.com/corneyc/this-is-my-first-repo.git``
+
+
+Copy
+cd python-docs-hello-world
+The sample contains framework-specific code that Azure App Service recognizes when starting the app. For more information, see Container startup process.
+
 Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
 * Project running on Azure App Service
