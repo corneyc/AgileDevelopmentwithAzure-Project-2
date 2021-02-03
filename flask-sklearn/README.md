@@ -109,6 +109,65 @@ This is how the code will look like:
 
 ![alt-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/Cloud_screen_15.png)
 
+## Create requirements.txt
+Inside the same repo you created ``Makefile``, there is a text file already, named ``requirements.txt``. Navigate to it and it should include the following items below. Remember that a ``requirements.txt`` is a convenient way to list what packages a project needs. Another optional best practice would be to "pin" the exact version of the package you use.
+
+```pylint
+   pytest
+   ```
+## Create the Python Virtual Environment
+Inside your Azure Cloud Shell environment create a Python virtual environment. Remember that by creating the virtual environment in a home directory it won't accidentally be checked into your project.
+
+```
+python3 -m venv .venv
+source .venv/bin/activate
+```
+## Create the script file and test file.
+The next step is to create the script file and test file. We are going to ignore the ``app.py`` thats already in the repo for now.  This is a boilerplate code to get the initial continuous integration process working. It will later be replaced by the real application code.
+
+First, you will need to create ``hello.py`` with the following code at the top level of your Github repo:
+
+```
+def toyou(x):
+    return "hi %s" % x
+
+
+def add(x):
+    return x + 1
+
+
+def subtract(x):
+    return x - 1
+```
+    
+Next, you will need to create ``test_hello.py`` with the following code at the top level of your Github repo:
+
+```
+from hello import toyou, add, subtract
+
+
+def setup_function(function):
+    print("Running Setup: %s" % function.__name__)
+    function.x = 10
+
+
+def teardown_function(function):
+    print("Running Teardown: %s" % function.__name__)
+    del function.x
+
+
+### Run to see failed test
+#def test_hello_add():
+#    assert add(test_hello_add.x) == 12
+
+def test_hello_subtract():
+    assert subtract(test_hello_subtract.x) == 9
+```
+
+3. Local Test
+
+Now it is time to run ``make all`` which will install, lint, and test code. This enables us to ensure we don't check in broken code to GitHub as it installs, lints, and tests the code in one command. Later we will have a remote build server perform the same step.
+
 
 Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
