@@ -7,9 +7,9 @@ This project will give me an opportunity to demonstrate my ability to perform co
 I am using a pre-trained, ``sklearn`` model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on. This project tests my ability to operationalize a Python flask app—in a provided file, ``app.py``—that serves out predictions (inference) about housing prices through API calls. This project could be extended to any pre-trained machine learning model, such as those for image recognition and data labeling.
 
 ## Project Plan
-<TODO: Project Plan
 
-* A link to a Trello board for the project
+
+* [A link to a Trello board for the project](https://trello.com/invite/b/ovORHXlN/e5107d7ce5e406b9f8ec1e65714e5f9b/agiledevelopmentwithazure-project2)
 * A link to a spreadsheet that includes the original and final project plan>
 
 ## Instructions
