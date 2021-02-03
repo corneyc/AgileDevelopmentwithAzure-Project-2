@@ -27,21 +27,27 @@ I adapted the following diagram from the notes provided on the course. In this d
 
 The following paragraphs will run you through steps on how run a Python project, GitHub repository creation, use of Azure Pipelines continuous integration and continuous delivery (CI/CD) to deploy a Python web app to Azure App Service on Linux. Finally, you create an Azure Pipelines CI/CD pipeline that automatically builds the code and deploy it to the App Service whenever there's a commit to the repository.
 
-Create a GitHub repository. Following the screenshots:
+1. Create a GitHub repository. Following the screenshots:
 
 On the left you will see a green icon which reads ``NEW``, click on it
+
 ![alt-image 1](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/screen_1.png)
 
-The following will appear, give your repo a meaningful name of your choice. Mine I have called 'my first repo': and you can also add a description.
+The following will appear, give your repo a meaningful name of your choice. Mine I have called 'my first repo': and you can also 
+add a description.
+
 ![alt-image 1](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/screen_2.png)
 
 Select ``Add a README file``  and ``Add .gitinore`` and in the dropdwon menu type in Python:
+
 ![alt-image 1](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/screen_3.png)
 
 Then click create repository in the green icon
+
 ![alt-image 1](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/screen_5.png)
 
 The last step in the repo you have created is to clone the repo. We will be doing it in Azure.
+
 ![alt-image 1](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/screen_4.png)
 
 
