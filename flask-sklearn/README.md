@@ -20,7 +20,7 @@ I started off by setting up a cloud-based development structure using Azure Clou
 
 I adapted the following diagram from the notes provided on the course. In this diagram, the Azure Cloud Shell is used to create an empty scaffold of tests, source code, Makefile, and requirements.
 
-                                        ![alt-image](flask-sklearn/images/azure-cloud-shell.png)
+                                        ![alt-image](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/azure-cloud-shell.png?raw=true)
 
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
