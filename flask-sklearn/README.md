@@ -77,10 +77,21 @@ Inside your GitHub repo from the Cloud shell, your next step will be to create a
 
 ![alt-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/makefile_screen_10.png)
 
+```
+install:
+    pip install --upgrade pip &&\
+        pip install -r requirements.txt
 
-Copy
-cd python-docs-hello-world
-The sample contains framework-specific code that Azure App Service recognizes when starting the app. For more information, see Container startup process.
+test:
+    python -m pytest -vv test_hello.py
+
+
+lint:
+    pylint --disable=R,C hello.py
+
+all: install lint test
+```
+
 
 Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
