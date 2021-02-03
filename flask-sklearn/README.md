@@ -78,6 +78,7 @@ Inside your GitHub repo from the Cloud shell, your next step will be to create a
 ![alt-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/Cloud_screen_11.png)
 
 Follow type in ``touch Makefile`` in the Cloud Shell terminal and enter. A file called ``Makefile`` will be created and see the screen below to navigate to the editor.
+
 ![alt-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/Cloud_screen_12.png)
 
 Next click on the two curley braces to open the editor.
@@ -166,12 +167,15 @@ def test_hello_subtract():
 
 3. Local Test
 
-Now it is time to run ``make all`` which will install, lint, and test code. This enables us to ensure we don't check in broken code to GitHub as it installs, lints, and tests the code in one command. Later we will have a remote build server perform the same step.
+Now it is time to run ``make all`` which will install, lint, and test code. This enables us to ensure we don't check in broken code to GitHub as it installs, lints, and tests the code in one command. Later we will have a remote build server perform the same step. The following screen is the outcome.
+
+![alti-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/make_all_scrn.png)
 
 
-Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+## Project running on Azure App Service
+I created the Resource group and the App Service from the Azure Cloud Shell using the following : ``az webapp up --sku B1 --name flaskproject-ml``. This created the Resource group in the Azure Consol:
 
-* Project running on Azure App Service
+![alti-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/rg.png)
 
 * Project cloned into Azure Cloud Shell
 
