@@ -232,7 +232,12 @@ With ``cat ./make_predict_azure_app.sh``
 
 ![alt-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/streamed_logs_az.png)
 
-> 
+
+![alt-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/streamed_logs_1.png)
+
+
+![alt-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/build_deploy_github.png)
+
 
 ## Enhancements
 
