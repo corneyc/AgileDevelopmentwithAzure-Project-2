@@ -214,7 +214,7 @@ Azure Deployement center
 
 ![alti-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/pipeline_deploy.png)
 
-![alti-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/deploy az webapp.png)
+![alti-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/deploy_az_webapp.png)
 
 
 ## Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction]
