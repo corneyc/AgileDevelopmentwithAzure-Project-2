@@ -228,7 +228,9 @@ With ``cat ./make_predict_azure_app.sh``
 ![alt-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/test_2.png)
 
 
-* Output of streamed log files from deployed application
+## Output of streamed log files from deployed application
+
+![alt-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/streamed_logs_az.png)
 
 > 
 
