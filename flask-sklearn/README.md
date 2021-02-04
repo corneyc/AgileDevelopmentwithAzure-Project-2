@@ -200,12 +200,24 @@ The project repository was cloned into Azure Cloud Shell using ``git clone git@g
 
 ![alti-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/make_all.png)
 
+Launching the app at ``https://flaskproject-ml.azurewebsites.net/`` yielded the following:
 
-* Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+![alti-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/applaunch.png)
 
-* Running Azure App Service from Azure Pipelines automatic deployment
+## Successful deploy of the project in Azure Pipelines. 
 
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
+Azure Deployement center
+
+![alti-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/azure_deploy.png)
+
+## Running Azure App Service from Azure Pipelines automatic deployment
+
+![alti-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/pipeline_deploy.png)
+
+![alti-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/deploy az webapp.png)
+
+
+## Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction]
 The output should look similar to this:
 
 ```bash
