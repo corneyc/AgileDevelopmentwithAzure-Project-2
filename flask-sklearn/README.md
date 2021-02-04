@@ -214,10 +214,11 @@ Azure Deployement center
 
 ![alti-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/pipeline_deploy.png)
 
+
 ![alti-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/deploy_az%20_webapp.png)
 
 
-## Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction]
+## Successful prediction from deployed flask app in Azure Cloud Shell.  
 The output should look similar to this:
 
 ```bash
