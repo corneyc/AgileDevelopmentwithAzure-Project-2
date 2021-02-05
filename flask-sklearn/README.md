@@ -221,15 +221,23 @@ Azure Deployement center
 ## Successful prediction from deployed flask app in Azure Cloud Shell.  
 The output should look similar to this:
 
-```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
+![alt-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/test_1.png)
 
-* Output of streamed log files from deployed application
+With ``cat ./make_predict_azure_app.sh``
 
-> 
+![alt-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/test_2.png)
+
+
+## Output of streamed log files from deployed application
+
+![alt-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/streamed_logs_az.png)
+
+
+![alt-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/streamed_logs_1.png)
+
+
+![alt-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/build_deploy_github.png)
+
 
 ## Enhancements
 
